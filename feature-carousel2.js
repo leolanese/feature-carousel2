@@ -1,4 +1,6 @@
 /*!
+ * Feature Carousel 2
+ *
  * Based on Feature Carousel, Version 1.3
  * http://www.bkosolutions.com
  *
