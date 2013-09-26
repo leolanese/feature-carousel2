@@ -20,7 +20,7 @@ Original Licensed under GPL version 3
 Major updates:
 
 Updated by @LeoLaneseltd: 
--Support jQuery v.2. 
+-Support jQuery v.2. <br>
 -Swipe event included. 
 -ECScript 5 support. 
 -Major js structure changes.
