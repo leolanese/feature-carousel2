@@ -1,4 +1,4 @@
-This carousel is Based on Feature Carousel latest version 1.3.<br>
+This carousel is Based on Feature Carousel (latest pusblish version 1.3)<br>
 
 <h2>Features</h2>
 -Arrange div's of content in a 3-D, rotating carousel.<br>
@@ -14,6 +14,19 @@ This carousel is Based on Feature Carousel latest version 1.3.<br>
 Thanks to:<br>
 - Brian Osborne: brian@bkosborne.com<br>
 Original Licensed under GPL version 3<br>
+
+How To use it:<br>
+<p>Same as old version</p>
+<pre>
+	$(document).ready(function () {
+    $("#carousel").featureCarousel({
+        // include options like this:
+        // (use quotes only for string values, and no trailing comma after last option)
+        // option: value,
+        // option: value
+    });
+  });
+</pre>
 
 -----------------------------------------------------------------------------------------------
 
