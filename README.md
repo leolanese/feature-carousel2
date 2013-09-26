@@ -1,6 +1,6 @@
 This carousel is Based on Feature Carousel latest version 1.3.<br>
 
-<h2>Features<h2>
+<h2>Features</h2>
 -Arrange div's of content in a 3-D, rotating carousel.<br>
 -Currently supports one flanking 'feature' on either side of center feature.<br>
 -Show clickable indicators (blips) of what feature is currently at the center.<br>
