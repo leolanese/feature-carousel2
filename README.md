@@ -42,5 +42,5 @@ Updated by @LeoLaneseltd: <br>
 - Leo Lanese: developer@leolanese.com
 
 
-<h2>DEMO</h2>:
+<h2>DEMO</h2>
 http://www.bkosborne.com/jquery-feature-carousel
