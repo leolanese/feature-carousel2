@@ -11,7 +11,7 @@
  * Updated by @LeoLaneseltd: Update include: Support jQuery v.2. Swipe event included. ECScript 5 support. Major js structure changes.
  *
  */
-var WMS = (function (aug) {
+var fc = (function (aug) {
 
     'use strict';
 
@@ -59,22 +59,10 @@ var WMS = (function (aug) {
 
                     if (startTime !== 0 && currentTime - startTime < maxTime && currentDistance > maxDistance) {
                         if (currentX < startX) {
-                            //alert('slide left');
-                            // swipe left code here
                             move(true, 1);
 
                         } else {
-                            //alert('slide right');
                             move(false, 1);
-
-                            // swipe right code here
-                            /*
-                            target.find('h1').html('Swipe Right').fadeIn();
-
-                            setTimeout(function() {
-                                target.find('h1').fadeOut();
-                            }, 1000);
-                            */
                         }
                         startTime = 0;
                         startX = 0;
@@ -528,15 +516,6 @@ var WMS = (function (aug) {
             .on("click", function() {
                 move(true, 1);
             });
-/*
-        $('.carousel-feature').on('click',function(){
-
-            // >= 256 is the main one
-            ($(this).css('width') >= '256px')? console.log($(this).css('width')) : console.log('<256');
-alert('click');
-            return false;
-        });
-*/
 
         // click right and left
         $(".carousel-feature")
@@ -639,21 +618,6 @@ alert('click');
             });
             return this;
         };
-
-        /*
-        this.next = function() {
-            move(true, 1);
-        };
-        this.prev = function() {
-            move(false, 1);
-        };
-        this.pause = function() {
-            speed(true);
-        };
-        this.start = function() {
-            speed(false);
-        };
-        */
 
         return this.initialize();
     };
